@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="class1">
+        <br>
+        <h1>ABC Hospital</h1>
+        <p>
+            <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="gallery.html">Gallery</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#">Registration</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="login.html">Login</a>
+        </p>
+        <hr>
+    </header>
+    <br>
+    <h2 align="center">Patient Registration</h2>
+    <form name="registration" method="POST">
+        <table align="center" cellpadding="10px">
+            <tr>
+                <td>
+                    <label for="name"><b>Full Name:</b></label><br><br>
+                    <input type="text" name="name" id="name" size="60" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail"><b>Email:</b></label><br><br>
+                    <input type="email" name="mail" id="mail" size="60" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone"><b>Phone Number:</b></label><br><br>
+                    <input type="tel" name="phone" id="phone" size="60" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass"><b>Password:</b></label><br><br>
+                    <input type="password" name="pass" id="pass" size="60" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob"><b>Date of Birth:</b></label><br><br>
+                    <input style="width: 97%;" type="date" name="dob" id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input class="button" id="register" type="submit" value="Register">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <br>
+    <footer class="class1">
+        <hr>
+        <h5>@2024 ABC Hospital. All Rights Reserved</h5>
+        <hr>
+    </footer>
+</body>
+
+</html>
